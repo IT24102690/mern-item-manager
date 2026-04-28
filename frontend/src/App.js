@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ItemForm from './components/ItemForm';
 import ItemList from './components/ItemList';
 
-const API_URL = 'https://mern-item-manager-backend-dchz.onrender.com/api/items';
+const API_URL = 'https://mern-item-manager-backend-dchz.onrender.com/api/';
 
 function App() {
   const [items, setItems] = useState([]);
